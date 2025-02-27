@@ -1,9 +1,9 @@
 public class IndexBMI {
 
-    public int bmi(int a, double b) {
+    public int bmi(int weight, double height) {
 
         double result;
-        result = (a / (b * b));
+        result = (weight / (height * height));
         return (int) result;
 
     }
