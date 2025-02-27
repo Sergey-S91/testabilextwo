@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         IndexBMI service = new IndexBMI();
-        int x = service.bmi(98, 1.87); // Введите свой вес а=...кг; Введите свой рост b=...м.)
+        int x = service.bmi(98, 1.87); // Введите свой вес weight =...кг; Введите свой рост height=...м.)
         System.out.println("Ваш индекс BMI = " + x);
 
 
